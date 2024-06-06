@@ -1,0 +1,55 @@
+/* src/components/UserTable.css */
+
+.user-table-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.pagination-controls {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-controls button {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pagination-controls button:hover {
+  background-color: #eee;
+}
+
+.pagination-controls button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.pagination-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
